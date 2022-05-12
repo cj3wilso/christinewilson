@@ -1,0 +1,10 @@
+.sass-cache
+/node_modules
+package.json
+package-lock.json
+/originals
+
+# Exclude any PSD/AI source
+*.psd
+*.ai
+merged*
