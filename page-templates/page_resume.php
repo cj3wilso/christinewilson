@@ -18,7 +18,7 @@ Template Name: Resume
 					</div>
 					<div class="profile-text right-col col-md-7 col-lg-8 col-print-8 spacing-l my-auto">
 						<h1><span>Christine</span> <span class="title-2">Wilson</span></h1>
-						<h2>Sales Executive</h2>
+						<h2>Full Stack (LAMP) <span class="nowrap">Web Developer</span></h2>
 					</div>
 				</div> 
 				<div class="row gx-0">
@@ -41,12 +41,9 @@ Template Name: Resume
 					<div class="left-col col-md-5 col-lg-4 col-print-4 spacing-l">
 						<section class="about">
 							<h2>About Me</h2>
-							<p>I am a Canadian woman currently living in the UK with a young daughter looking to transition into Corporate B2B Sales from Web Development. Familiar with long B2B sales cycles from working with both Ashton Woods and Eloqua, I am familiar with both marketing automation to generate leads, score and qualify, and the general sales cycle. The sales cycle includes determining customer's needs and interests through prelimiary talks and research, delving deep to learn how our product or service is leveraged successfully for businesses with similar scale or nature, and working collaboratively with the prospect to construct a definitive plan that specifically suits their needs, and finally gauging how to measure the solution's success through relevant metrics.</p>
-							
-							<p>With my personal determination and previous experience following highly process driven work in the web development space, I believe I would use attention to detail and timely communcation to successfully satisfy prospects and close sales. </p>
-							<!--<p>I am a Canadian woman currently living in the UK with a young daughter; a healthy work-life balance is important to me. I have become a better team player with maturity, though my experience allows me to thrive in deep-dive challenges, pushing boundaries with innovation and personal productivity. I believe that style and design are important, however, I cannot help but feel better inspired with clear functional goals. Honesty and kindness are core values that I hold in high regard, though it is skepticism that keeps me sharp.</p>-->
+							<p>I am a Canadian woman currently living in the UK with a young daughter; a healthy work-life balance is important to me. I have become a better team player with maturity, though my experience allows me to thrive in deep-dive challenges, pushing boundaries with innovation and personal productivity. I believe that style and design are important, however, I cannot help but feel better inspired with clear functional goals. Honesty and kindness are core values that I hold in high regard, though it is skepticism that keeps me sharp.</p>
 						</section>
-						<section class="top-5 d-print-none">
+						<section class="top-5">
 							<h2>Top 6 Skills</h2>
 							<div id="php" class="gauge-container one"><div class="language">PHP</div></div>
 							<div id="react" class="gauge-container one"><div class="language">ReactJS</div></div>
@@ -57,13 +54,11 @@ Template Name: Resume
 						</section>
 						<section class="skills d-print-none">
 							<h2>Skills</h2>
-							
-							<div class="subheading">Marketing Systems</div>
-							<p>Hubspot, Pardot, SalesForce, WordPress, Eloqua, Broadvision, Alfresco, Omniture, Google Analytics, SEO</p>
-							
 							<div class="subheading">Web Development</div>
 							<p>PHP, Apache2, Gulp.js, Sass, Linux, MySQL, MS SQL, REST APIs, ReactJS, AngularJS, JavaScript, jQuery, AJAX, Bootstrap, JSON, CSS3, HTML5, htaccess, XML, Git, JIRA, Bitbucket, Docker, SourceTree, Slack, Asana, TortoiseSVN, Apache Cordova, Google Cloud Platform and AWS</p>
-							
+	
+							<div class="subheading">Marketing Systems</div>
+							<p>Hubspot, Pardot, WordPress, Eloqua, Broadvision, Alfresco, Omniture, Google Analytics, SEO</p>
 						</section>
 					</div>
 					<div class="right-col col-md-7 col-lg-8 col-print-8">
@@ -75,18 +70,12 @@ Template Name: Resume
 							
 							
 							<div class="accordion block">
-								<div class="summary">
-									<div class="row">
-										<div class="col-md-8 col-print-8">
-											<h4 class="job-title">Full Stack Developer</h4>
-										</div>		
-										<div class="date col-md-4 col-print-4 text-right">Jan <span class="d-print-none">20</span>20 to <span class="nowrap">Oct <span class="d-print-none">20</span>21</span></div>
-									</div>
-									<div class="row">
-										<div class="col-md-12 col-print-12">
-											<div class="organization"><a href="https://110shades.com/" target="_blank">110 Shades</a> / <a href="https://mongooseandmink.com/" target="_blank">Mongoose &amp; Mink</a> <span class="nowrap">Makeup, Skincare Retailer</span></div>
-										</div>
-									</div>
+								<div class="summary row">
+									<div class="col-md-8 col-print-8">
+										<h4 class="job-title">Full Stack Developer</h4>
+										<div class="organization"><a href="https://110shades.com/" target="_blank">110 Shades</a> / <a href="https://mongooseandmink.com/" target="_blank">Mongoose &amp; Mink</a></div>
+									</div>		
+									<div class="date col-md-4 col-print-4 text-right">Jan <span class="d-print-none">20</span>20 to <span class="nowrap">Oct <span class="d-print-none">20</span>21</span></div>
 								</div>
 								
 								<ul class="accordion-content d-print-none">
@@ -107,18 +96,12 @@ Template Name: Resume
 							</div>
 							
 							<div class="accordion block">
-								<div class="summary">
-									<div class="row">
-										<div class="col-md-8 col-print-8">
-											<h4 class="job-title">WordPress Developer</h4> 
-										</div>		
-										<div class="date col-md-4 col-print-4 text-right">Sep <span class="d-print-none">20</span>18 to <span class="nowrap">Jan <span class="d-print-none">20</span>20</span></div>
-									</div>
-									<div class="row">
-										<div class="col-md-12 col-print-12">
-											<div class="organization"><a href="https://rcdesign.com/" target="_blank">RC Design</a> <span class="nowrap">Creative Marketing Agency</span></div>
-										</div>
-									</div>
+								<div class="summary row">
+									<div class="col-md-8 col-print-8">
+										<h4 class="job-title">WordPress Developer</h4> 
+										<div class="organization"><a href="https://rcdesign.com/" target="_blank">RC Design</a></div>
+									</div>		
+									<div class="date col-md-4 col-print-4 text-right">Sep <span class="d-print-none">20</span>18 to <span class="nowrap">Jan <span class="d-print-none">20</span>20</span></div>
 								</div>
 								
 								<ul class="accordion-content d-print-none">
@@ -129,23 +112,17 @@ Template Name: Resume
 							</div>
 							
 							<div class="accordion block">
-								<div class="summary">
-									<div class="row">
-										<div class="col-md-8 col-print-8">
-											<h4 class="job-title">Web Developer (LAMP)</h4> 
-										</div>
-										<div class="date col-md-4 col-print-4 text-right">Aug <span class="d-print-none">20</span>13 to <span class="nowrap">Jan <span class="d-print-none">20</span>18</span></div>
+								<div class="summary row">
+									<div class="col-md-8 col-print-8">
+										<h4 class="job-title">Web Developer (LAMP)</h4> 
+										<div class="organization"><a href="https://greatgulf.com/" target="_blank">Great Gulf</a> / <a href="https://ashtonwoods.com/" target="_blank">Ashton Woods</a></div>
 									</div>
-									<div class="row">
-										<div class="col-md-12 col-print-12">
-											<div class="organization"><a href="https://greatgulf.com/" target="_blank">Great Gulf</a> / <a href="https://ashtonwoods.com/" target="_blank">Ashton Woods</a> <span class="nowrap">New Home Developer (B2B)</span> </div>
-										</div>
-									</div>
+									<div class="date col-md-4 col-print-4 text-right">Aug <span class="d-print-none">20</span>13 to <span class="nowrap">Jan <span class="d-print-none">20</span>18</span></div>
 								</div>
 								
 								<ul class="accordion-content d-print-none">
-									<li>Moved Great Gulf from Pardot to HubSpot, planning data integration with forms on website using HubSpot API to manage creation of new email lists and custom fields. </li>
-									<li>Implemented Pardot as Ashton Woods new marketing automation tool, setting up new marketing/sales funnels that followed typical B2B sales cycle. Moved data from internal system to Pardot. Set up email templates, custom roles, folder permissions. Worked with data integration team to coordinate implementation of Pardot and Salesforce.</li>
+									<li>Moved Great Gulf from Pardot to HubSpot, planning data integration with forms on website using HubSpot API to manage creation of new email lists and custom fields.</li>
+									<li>Implemented Pardot as Ashton Woods new marketing automation tool. Moved data from internal system to Pardot. Set up email templates, custom roles, folder permissions. Worked with data integration team to coordinate implementation of Pardot and Salesforce.</li>
 									<li>Part of team for website redesign. Imported old website data to new Drupal system - keeping current community and home plans intact. </li>
 									<li>Create new modules and pages in Drupal. Coordinating changes with team, adding new stories to Jira project management software and checking changes into Git. Reviewing and testing other developers' changes.</li>
 									<li>Moved websites from internal servers to Google Cloud Platform. Manage and maintain them.</li>
@@ -156,19 +133,12 @@ Template Name: Resume
 							</div>
 							
 							<div class="accordion d-print-none block">
-								<div class="summary">
-									<div class="row">
-										<div class="col-md-8 col-print-8">
-											<h4 class="job-title">Front-End Developer</h4> 
-											
-										</div>
-										<div class="date col-md-4 col-print-4 text-right">May <span class="d-print-none">20</span>12 to <span class="nowrap">Aug <span class="d-print-none">20</span>13</span></div>
+								<div class="summary row">
+									<div class="col-md-8 col-print-8">
+										<h4 class="job-title">Front-End Developer</h4> 
+										<div class="organization"><a href="https://epson.ca/" target="_blank">Epson Canada</a> / <a href="https://epson.com/" target="_blank">Epson America</a></div>
 									</div>
-									<div class="row">
-										<div class="col-md-12 col-print-12">
-											<div class="organization"><a href="https://epson.ca/" target="_blank">Epson Canada</a> / <a href="https://epson.com/" target="_blank">Epson America</a></div>
-										</div>
-									</div>
+									<div class="date col-md-4 col-print-4 text-right">May <span class="d-print-none">20</span>12 to <span class="nowrap">Aug <span class="d-print-none">20</span>13</span></div>
 								</div>
 								
 								<ul class="accordion-content d-print-none">
@@ -185,18 +155,12 @@ Template Name: Resume
 							
 							
 							<div class="accordion d-print-none block">
-								<div class="summary">
-									<div class="row">
-										<div class="col-md-8 col-print-8">
-											<h4 class="job-title">Web Marketer</h4> 
-										</div>
-										<div class="date col-md-4 col-print-4 text-right">Nov <span class="d-print-none">20</span>10 to <span class="nowrap">May <span class="d-print-none">20</span>12</span></div>
+								<div class="summary row">
+									<div class="col-md-8 col-print-8">
+										<h4 class="job-title">Web Marketer</h4> 
+										<div class="organization"><a href="https://epson.ca/" target="_blank">Epson Canada</a></div>
 									</div>
-									<div class="row">
-										<div class="col-md-12 col-print-12">
-											<div class="organization"><a href="https://epson.ca/" target="_blank">Epson Canada</a> <span class="nowrap">Multinational Electronics Company</span></div>
-										</div>
-									</div>
+									<div class="date col-md-4 col-print-4 text-right">Nov <span class="d-print-none">20</span>10 to <span class="nowrap">May <span class="d-print-none">20</span>12</span></div>
 								</div>
 
 								<ul class="accordion-content d-print-none">
@@ -209,18 +173,12 @@ Template Name: Resume
 							</div>
 							
 							<div class="accordion d-print-none block">
-								<div class="summary">
-									<div class="row">
-										<div class="col-md-8 col-print-8">
-											<h4 class="job-title">Sr. Web Designer</h4> 
-										</div>
-										<div class="date col-md-4 col-print-4 text-right">Feb <span class="d-print-none">20</span>06 to <span class="nowrap">July <span class="d-print-none">20</span>09</span></div>
+								<div class="summary row">
+									<div class="col-md-8 col-print-8">
+										<h4 class="job-title">Sr. Web Designer</h4> 
+										<div class="organization"><a href="https://xe.com/" target="_blank">XE.com</a></div>
 									</div>
-									<div class="row">
-										<div class="col-md-12 col-print-12">
-											<div class="organization"><a href="https://xe.com/" target="_blank">XE.com</a> <span class="nowrap">Online Currency Exchange</span></div>
-										</div>
-									</div>
+									<div class="date col-md-4 col-print-4 text-right">Feb <span class="d-print-none">20</span>06 to <span class="nowrap">July <span class="d-print-none">20</span>09</span></div>
 								</div>
 
 								<ul class="accordion-content d-print-none">
@@ -234,17 +192,11 @@ Template Name: Resume
 							
 							<div class="accordion d-print-none block">
 								<div class="summary row">
-									<div class="row">
-										<div class="col-md-8 col-print-8">
-											<h4 class="job-title">Web Designer</h4> 
-										</div>
-										<div class="date col-md-4 col-print-4 text-right">Apr <span class="d-print-none">20</span>04 to <span class="nowrap">Feb <span class="d-print-none">20</span>06</span></div>
+									<div class="col-md-8 col-print-8">
+										<h4 class="job-title">Web Designer</h4> 
+										<div class="organization"><a href="https://eloqua.com/" target="_blank">Eloqua</a></div>
 									</div>
-									<div class="row">
-										<div class="col-md-12 col-print-12">
-											<div class="organization"><a href="https://eloqua.com/" target="_blank">Eloqua</a> <span class="nowrap">B2B Marketing Automation SaaS</span></div>
-										</div>
-									</div>
+									<div class="date col-md-4 col-print-4 text-right">Apr <span class="d-print-none">20</span>04 to <span class="nowrap">Feb <span class="d-print-none">20</span>06</span></div>
 								</div>
 								
 								<ul class="accordion-content d-print-none">
@@ -255,7 +207,7 @@ Template Name: Resume
 								<p class="d-print-none">Technical Environment: HTML, JavaScript, CSS, Eloqua Email Template setup</p>
 							</div>
 						</section>
-						<section class="d-none d-print-block spacing-l"><div class="prior-history spacing-x">View expanded role details and prior work history since 2013 online</div></section> 
+						<section class="prior-history d-none d-print-block spacing-x">View expanded role details and prior work history since 2013 online</section> 
 						<section class="education spacing-x">
 							<h2>Education</h2>
 							<div class="d-print-none summary row">
