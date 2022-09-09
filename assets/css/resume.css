@@ -193,18 +193,22 @@ h1 .title-2 {
 	cursor: pointer;
 	position: relative;
 }
-.accordion:before {
+.accordion .summary > div:nth-child(2){
+	position: relative;
+}
+.accordion .summary > div:nth-child(2):before {
 	font-family: "Material Icons";
     content: "\e5e1";
     display: inline-block;
     position: absolute;
-	top: 22px;
+	/*top: 22px;*/
+	left: 10px;
     font-size: 15px;
 }
 .accordion .organization {
 	padding-left: 24px;
 }
-.accordion.is-open:before {
+.accordion.is-open .summary > div:nth-child(2):before {
 	transform: rotate(90deg);
 }
 .accordion:hover,
@@ -410,8 +414,8 @@ div[class*="skill-"]:before{
 	.text-right {
 		text-align: right;
 	}
-	.accordion:before {
-		top: 28.5px;
+	.accordion .summary > div:nth-child(2):before {
+		top: 0;
 		font-size: 18px;
 	}
 	.gauge-container {
