@@ -18,7 +18,7 @@ Template Name: Resume
 					</div>
 					<div class="profile-text right-col col-md-7 col-lg-8 col-print-8 spacing-l my-auto">
 						<h1><span>Christine</span> <span class="title-2">Wilson</span></h1>
-						<h2>Full Stack (LAMP) <span class="nowrap">Web Developer</span></h2>
+						<h2>React <span class="nowrap">Web Developer</span></h2>
 					</div>
 				</div> 
 				<div class="row gx-0">
@@ -41,14 +41,16 @@ Template Name: Resume
 					<div class="left-col col-md-5 col-lg-4 col-print-4 spacing-l">
 						<section class="about">
 							<h2>About Me</h2>
-							<p>I am a Canadian woman currently living in the UK with a young daughter; a healthy work-life balance is important to me. I have become a better team player with maturity, though my experience allows me to thrive in deep-dive challenges, pushing boundaries with innovation and personal productivity. I believe that style and design are important, however, I cannot help but feel better inspired with clear functional goals. Honesty and kindness are core values that I hold in high regard, though it is skepticism that keeps me sharp.</p>
+							<p>I am a full stack web developer (focusing in React) from Toronto, Canada currently living in the UK. Skills include: React, Next.js, Redux, MongoDB, CSS3, Git, TypeScript, PHP, MySQL, SQL, Laravel, Docker, GCP, SSH UNIX shell scripting. In my spare time, I'm keen to get more involved with Python programming and ML applications in particular.
+
+							<!--I am a Canadian woman currently living in the UK with a young daughter; a healthy work-life balance is important to me. I have become a better team player with maturity, though my experience allows me to thrive in deep-dive challenges, pushing boundaries with innovation and personal productivity. I believe that style and design are important, however, I cannot help but feel better inspired with clear functional goals. Honesty and kindness are core values that I hold in high regard, though it is skepticism that keeps me sharp.--></p>
 						</section>
 						<section class="top-5">
 							<h2>Top 6 Skills</h2>
 							<div id="php" class="gauge-container one"><div class="language">PHP</div></div>
 							<div id="react" class="gauge-container one"><div class="language">ReactJS</div></div>
 							<div id="bootstrapg" class="gauge-container one"><div class="language">Bootstrap</div></div>
-							<div id="restapis" class="gauge-container one"><div class="language">REST APIs</div></div>
+							<div id="restapis" class="gauge-container one"><div class="language">Next.js</div></div>
 							<div id="gcp" class="gauge-container one"><div class="language">GCP</div></div>
 							<div id="mysql" class="gauge-container one"><div class="language">MySQL</div></div>
 						</section>
