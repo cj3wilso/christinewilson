@@ -597,7 +597,7 @@ div[class*="skill-"]:before{
 	.qr-code-bottom{
 		margin-top: 48px;
 	}
-	.gauge-container:nth-child(4) {
-		margin-right:0;
+	.gauge-container:nth-of-type(3n+3) {
+		margin-right: 0;
 	}
 }
