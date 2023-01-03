@@ -41,22 +41,22 @@ Template Name: Resume
 					<div class="left-col col-md-5 col-lg-4 col-print-4 spacing-l">
 						<section class="about">
 							<h2>About Me</h2>
-							<p>I am a full stack (React &amp; PHP) web developer from Toronto, Canada currently living in the UK. As I'm a self starter, I naturally love deep-dive challenges, however you'll also find that I work well in teams of all sizes. In my spare time, I'm keen to get more involved with Python programming and ML applications in particular.
+							<p>I am a full stack (React &amp; PHP) web developer from Toronto, Canada currently living in the UK. As a self starter, I naturally love deep-dive challenges, however you'll also find that I work well in teams of all sizes. In my spare time, I'm keen to get more involved with Python programming and ML applications in particular.
 							<!--I am a Canadian woman currently living in the UK with a young daughter; a healthy work-life balance is important to me. I have become a better team player with maturity, though my experience allows me to thrive in deep-dive challenges, pushing boundaries with innovation and personal productivity. I believe that style and design are important, however, I cannot help but feel better inspired with clear functional goals. Honesty and kindness are core values that I hold in high regard, though it is skepticism that keeps me sharp.--></p>
 						</section>
 						<section class="top-5">
 							<h2>Top 6 Skills</h2>
 							<div id="php" class="gauge-container one"><div class="language">React</div></div>
-							<div id="react" class="gauge-container one"><div class="language">Laravel</div></div>
-							<div id="restapis" class="gauge-container one"><div class="language">Redux</div></div>
-							<div id="gcp" class="gauge-container one"><div class="language">GCP</div></div>
-							<div id="mysql" class="gauge-container one"><div class="language">MySQL</div></div>
+							<div id="react" class="gauge-container one"><div class="language">TypeScript</div></div>
+							<div id="restapis" class="gauge-container one"><div class="language">Redux Saga</div></div>
+							<div id="gcp" class="gauge-container one"><div class="language">RESTful APIs</div></div>
+							<div id="mysql" class="gauge-container one"><div class="language">Netlify, Vercel</div></div>
 							<div id="bootstrapg" class="gauge-container one"><div class="language">CSS3</div></div>
 						</section>
 						<section class="skills d-print-none">
 							<h2>Skills</h2>
 							<div class="subheading">Web Development</div>
-							<p>React, Redux, Jest, CSS3, Git, TypeScript, PHP, MySQL, SQL, Laravel, Docker, GCP, SSH UNIX shell scripting, Next.js, React Native, MongoDB, Apache2, Gulp.js, Sass, Linux, REST APIs, JavaScript, Bootstrap, htaccess, JIRA, Bitbucket, Docker, SourceTree, Slack, Asana, Google Cloud Platform and AWS</p>
+							<p>React, Redux, GraphQL, Jest, CSS3, Git, TypeScript, Next.js, Netlify, Vercel, PHP, MySQL, SQL, Laravel, Docker, GCP, SSH UNIX shell scripting, React Native, MongoDB, Apache2, Gulp.js, Sass, Linux, RESTful APIs, JavaScript, Bootstrap, htaccess, JIRA, Bitbucket, Docker, SourceTree, Slack, Asana, Google Cloud Platform and AWS</p>
 							<div class="subheading">Marketing Systems</div>
 							<p>Pardot, Hubspot, Eloqua, Google Analytics, SEO, WordPress, Broadvision, Alfresco, Omniture</p>
 						</section>
