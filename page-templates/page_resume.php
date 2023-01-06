@@ -18,7 +18,7 @@ Template Name: Resume
 					</div>
 					<div class="profile-text right-col col-md-7 col-lg-8 col-print-8 spacing-l my-auto">
 						<h1><span>Christine</span> <span class="title-2">Wilson</span></h1>
-						<h2>Full Stack <span class="nowrap">Web Developer</span></h2>
+						<h2><span class="default">React</span> <span class="lamp">Full Stack (LAMP)</span> <span class="nowrap">Web Developer</span></h2>
 					</div>
 				</div> 
 				<div class="row gx-0">
@@ -41,17 +41,17 @@ Template Name: Resume
 					<div class="left-col col-md-5 col-lg-4 col-print-4 spacing-l">
 						<section class="about">
 							<h2>About Me</h2>
-							<p>I am a full stack (React &amp; PHP) web developer from Toronto, Canada currently living in the UK. As a self starter, I naturally love deep-dive challenges, however you'll also find that I work well in teams of all sizes. In my spare time, I'm keen to get more involved with Python programming and ML applications in particular.
+							<p>I am a <span class="default">React front-end</span> <span class="lamp">full stack</span> web developer from Toronto, Canada currently living in the UK. As a self starter, I naturally love deep-dive challenges, however you'll also find that I work well in teams of all sizes. In my spare time, I'm keen to get more involved with Python programming and ML applications in particular.
 							<!--I am a Canadian woman currently living in the UK with a young daughter; a healthy work-life balance is important to me. I have become a better team player with maturity, though my experience allows me to thrive in deep-dive challenges, pushing boundaries with innovation and personal productivity. I believe that style and design are important, however, I cannot help but feel better inspired with clear functional goals. Honesty and kindness are core values that I hold in high regard, though it is skepticism that keeps me sharp.--></p>
 						</section>
 						<section class="top-5">
 							<h2>Top 6 Skills</h2>
-							<div id="php" class="gauge-container one"><div class="language">React</div></div>
-							<div id="react" class="gauge-container one"><div class="language">TypeScript</div></div>
-							<div id="restapis" class="gauge-container one"><div class="language">Redux Saga</div></div>
+							<div id="php" class="gauge-container one"><div class="language"><span class="default">React</span><span class="lamp">PHP</span></div></div>
+							<div id="react" class="gauge-container one"><div class="language"><span class="default">TypeScript</span><span class="lamp">MySQL</span></div></div>
+							<div id="restapis" class="gauge-container one"><div class="language"><span class="default">Redux</span><span class="lamp">GCP/AWS</span></div></div>
 							<div id="gcp" class="gauge-container one"><div class="language">RESTful APIs</div></div>
-							<div id="mysql" class="gauge-container one"><div class="language">Netlify, Vercel</div></div>
-							<div id="bootstrapg" class="gauge-container one"><div class="language">CSS3</div></div>
+							<div id="mysql" class="gauge-container one"><div class="language"><span class="default">Netlify</span><span class="lamp">jQuery</span></div></div>
+							<div id="bootstrapg" class="gauge-container one"><div class="language">CSS3/Sass</div></div>
 						</section>
 						<section class="skills d-print-none">
 							<h2>Skills</h2>
@@ -67,8 +67,6 @@ Template Name: Resume
 								<span class="d-none d-print-inline-block">Recent</span> Work History
 								<span class="toggle-instructions d-print-none">Toggle chevrons to expand/collapse role details</span>
 							</h2>
-							
-							
 							<div class="accordion block">
 								<div class="summary">
 									<div class="row">
@@ -286,7 +284,7 @@ Template Name: Resume
 									<div class="float-end">Scan the QR code to view <br>my full interactive resume online</div>
 								</div>
 								<div class="col-4 col-md-5 col-print-5">
-									<div class="qr-code bg-pink spacing-r"><?php echo wp_get_attachment_image( 5178, 'thumbnail', false, array( "class" => "img-fluid spacing-r" ) ); ?></div>
+									<div class="qr-code bg-pink spacing-r"><span class="default"><?php echo wp_get_attachment_image( 5178, 'thumbnail', false, array( "class" => "img-fluid spacing-r" ) ); ?></span><span class="lamp"><?php echo wp_get_attachment_image( 5199, 'thumbnail', false, array( "class" => "img-fluid spacing-r" ) ); ?></span></div>
 								</div>
 							</div>
 						</div>
@@ -583,12 +581,25 @@ Template Name: Resume
 	</div>
 </div>
 <script>
+function setDisplayCSS(x,displayType){
+	var i;
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = displayType;
+	}
+}
 if (window.location.hash == "#sales") {
 	document.getElementById("sales").style.display = "block";
 	document.getElementById("developer").style.display = "none";
-} else {
+} else if(window.location.hash == "#lamp") {
     document.getElementById("sales").style.display = "none"
 	document.getElementById("developer").style.display = "block";
+	setDisplayCSS(document.getElementsByClassName("lamp"),"inline-block");
+	setDisplayCSS(document.getElementsByClassName("default"),"none");
+}else{
+	document.getElementById("sales").style.display = "none"
+	document.getElementById("developer").style.display = "block";
+	setDisplayCSS(document.getElementsByClassName("lamp"),"none");
+	setDisplayCSS(document.getElementsByClassName("default"),"inline-block");
 }
 	const gaugeOptions = {
           max: 10,

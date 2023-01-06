@@ -169,7 +169,7 @@ h1 .title-2 {
 .gauge-container {
 	display: inline-block;
 	position: relative;
-	width: 100%;
+	width: 49%;
 	margin-bottom: 15px;
 }
 .gauge-container:last-child {
@@ -423,6 +423,12 @@ div[class*="skill-"]:before{
 		margin-bottom: 15px;
 		margin-right:15px;
 	}
+	
+}
+@media (min-width: 1400px) {
+	.gauge-container:nth-of-type(3n+3) {
+		margin-right: 0;
+	}
 }
 @media print
 {
@@ -597,7 +603,5 @@ div[class*="skill-"]:before{
 	.qr-code-bottom{
 		margin-top: 48px;
 	}
-	.gauge-container:nth-of-type(3n+3) {
-		margin-right: 0;
-	}
+	
 }
