@@ -1,0 +1,68 @@
+# Stop Apache from serving .ht* files
+<Files ~ "^\.ht">
+  Order allow,deny
+  Deny from all
+</Files>
+# Protect wp-login.php
+<Files wp-login.php>
+	AuthUserFile /var/www/html/.htpasswd
+	AuthName "Private access"
+	AuthType Basic
+	Require valid-user
+</Files>
+# Stop spam attack logins and comments
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_METHOD} POST
+	RewriteCond %{REQUEST_URI} .(wp-comments-post|wp-login)\.php*
+	RewriteCond %{HTTP_REFERER} !.*christinewilson.uk.* [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^$
+	RewriteRule (.*) http://%{REMOTE_ADDR}/$1 [R=301,L]
+</ifModule>
+<Files xmlrpc.php>
+	order deny,allow
+	deny from all
+</Files>
+
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^christinewilson\.uk$ [NC]
+RewriteRule ^(.*)$ https://christinewilson.uk/$1 [R=301,L]
+
+# This file was updated by Duplicator Pro on 2021-12-15 13:07:04.
+# See htaccess.orig for the .htaccess original file.
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# BEGIN EWWWIO
+# The directives (lines) between "BEGIN EWWWIO" and "END EWWWIO" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_ACCEPT} image/webp
+RewriteCond %{REQUEST_FILENAME} (.*)\.(jpe?g|png|gif)$
+RewriteCond %{REQUEST_FILENAME}.webp -f
+RewriteCond %{QUERY_STRING} !type=original
+RewriteRule (.+)\.(jpe?g|png|gif)$ %{REQUEST_URI}.webp [T=image/webp,L]
+</IfModule>
+<IfModule mod_headers.c>
+<FilesMatch "\.(jpe?g|png|gif)$">
+Header append Vary Accept
+</FilesMatch>
+</IfModule>
+AddType image/webp .webp
+# END EWWWIO
