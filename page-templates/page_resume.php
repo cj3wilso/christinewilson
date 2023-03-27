@@ -41,7 +41,7 @@ Template Name: Resume
 					<div class="left-col col-md-5 col-lg-4 col-print-4 spacing-l">
 						<section class="about">
 							<h2>About Me</h2>
-							<p>I am a <span class="default">React front-end</span> <span class="lamp">full stack</span> web developer from Toronto, Canada currently living in the UK. As a self starter, I naturally love deep-dive challenges, however you'll also find that I work well in teams of all sizes. In my spare time, I'm keen to get more involved with Python programming and ML applications in particular.
+							<p>I am a <span class="default">React front-end</span> <span class="lamp">full stack</span> web developer from Toronto, Canada with the right to work in the UK. As a self starter, I naturally love deep-dive challenges, however you'll also find that I work well in teams of all sizes. In my spare time, I'm keen to get more involved with Python programming and ML applications in particular.
 							<!--I am a Canadian woman currently living in the UK with a young daughter; a healthy work-life balance is important to me. I have become a better team player with maturity, though my experience allows me to thrive in deep-dive challenges, pushing boundaries with innovation and personal productivity. I believe that style and design are important, however, I cannot help but feel better inspired with clear functional goals. Honesty and kindness are core values that I hold in high regard, though it is skepticism that keeps me sharp.--></p>
 						</section>
 						<section class="top-5">
@@ -83,7 +83,7 @@ Template Name: Resume
 								</div>
 								
 								<ul class="accordion-content d-print-none">
-									<li>Created 110 Shades and Mongoose &amp; Mink's website with WordPress using custom themes. The first website is to sell liquid foundation and the second sells makeup and skincare.</li>
+									<li>Created 110 Shades and Mongoose &amp; Mink websites. The first website is to sell liquid foundation and the second sells makeup and skincare.</li>
 									<li>Set up websites on a virtual server (Google Cloud Platform) with SSL certificates (Let's Encrypt)</li>
 									<li>Integrations were made with Delivery Net their distribution center, and ChitChat for smaller individual shipping where we set up the checkout process to purchase the shipping method through ChitChat API and emailed the owner the shipping label.</li>
 									<li>As I worked directly with the owners of the business, we discussed the best business plans going forward with technology and marketing. Ideas of how to spend money for marketing, the growing of their Instagram channel and making a presence on other websites.</li>
@@ -96,7 +96,7 @@ Template Name: Resume
 									<li>Created an analyzer that computes the average color of a person's skin from their photo to find their closest matching shade.</li>
 								</ul>
 								
-								<p><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> WordPress, PHP 7, MySQL, GCP, Gulp.js, Sass, ReactJS, jQuery, Bitbucket, Docker, Slack, Git, REST APIs, AJAX, HotJar, SendGrid</p>
+								<p><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> PHP 7, MySQL, GCP, Gulp.js, Sass, ReactJS, jQuery, Bitbucket, Docker, Slack, Git, REST APIs, AJAX, HotJar, SendGrid</p>
 							</div>
 							
 							<div class="accordion block">
@@ -145,7 +145,7 @@ Template Name: Resume
 									<li>Created web socket to communicate from tablet to TV in our design center.</li>
 									<li>Weekly meetings with SEO team implementing website changes to enhance SEO. Provide any technical insights or solutions where needed.</li>
 								</ul>
-								<p><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> PHP, MySQL, MS SQL, GCP, AWS, Linux, Debian, Bitbucket, Asana, Git, CSS3, Bootstrap, Apache2, REST APIs, AngularJS, jQuery, AJAX, htaccess, Pardot, Hubspot, Sass, Wordpress</p>
+								<p><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> PHP, MySQL, MS SQL, GCP, AWS, Linux, Debian, Bitbucket, Asana, Git, CSS3, Bootstrap, Apache2, REST APIs, AngularJS, jQuery, AJAX, htaccess, Pardot, Hubspot, Sass</p>
 							</div>
 							
 							<div class="accordion d-print-none block">
@@ -329,7 +329,7 @@ Template Name: Resume
 					<div class="left-col col-md-5 col-lg-4 col-print-4 spacing-l">
 						<section class="about">
 							<h2>About Me</h2>
-							<p>I am a Canadian woman currently living in the UK with a young daughter looking to transition into Corporate B2B Sales from Web Development. Familiar with long B2B sales cycles from working with both Ashton Woods and Eloqua, I am familiar with both marketing automation to generate leads, score and qualify, and the general sales cycle. The sales cycle includes determining customer's needs and interests through prelimiary talks and research, delving deep to learn how our product or service is leveraged successfully for businesses with similar scale or nature, and working collaboratively with the prospect to construct a definitive plan that specifically suits their needs, and finally gauging how to measure the solution's success through relevant metrics.</p>
+							<p>I am a Canadian with the right to work in the UK and am looking to transition into Corporate B2B Sales from Web Development. Familiar with long B2B sales cycles from working with both Ashton Woods and Eloqua, I am familiar with both marketing automation to generate leads, score and qualify, and the general sales cycle. The sales cycle includes determining customer's needs and interests through prelimiary talks and research, delving deep to learn how our product or service is leveraged successfully for businesses with similar scale or nature, and working collaboratively with the prospect to construct a definitive plan that specifically suits their needs, and finally gauging how to measure the solution's success through relevant metrics.</p>
 							
 							<p>With my personal determination and previous experience following highly process driven work in the web development space, I believe I would use attention to detail and timely communcation to successfully satisfy prospects and close sales. </p>
 						</section>
@@ -368,7 +368,7 @@ Template Name: Resume
 								</div>
 								
 								<ul class="accordion-content d-print-none">
-									<li>Created 110 Shades and Mongoose &amp; Mink's website with WordPress using custom themes. The first website is to sell liquid foundation and the second sells makeup and skincare.</li>
+									<li>Created 110 Shades and Mongoose &amp; Mink's websites. The first website is to sell liquid foundation and the second sells makeup and skincare.</li>
 									<li>Set up websites on a virtual server (Google Cloud Platform) with SSL certificates (Let's Encrypt)</li>
 									<li>Integrations were made with Delivery Net their distribution center, and ChitChat for smaller individual shipping where we set up the checkout process to purchase the shipping method through ChitChat API and emailed the owner the shipping label.</li>
 									<li>As I worked directly with the owners of the business, we discussed the best business plans going forward with technology and marketing. Ideas of how to spend money for marketing, the growing of their Instagram channel and making a presence on other websites.</li>
@@ -381,7 +381,7 @@ Template Name: Resume
 									<li>Created an analyzer that computes the average color of a person's skin from their photo to find their closest matching shade.</li>
 								</ul>
 								
-								<p><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> WordPress, PHP 7, MySQL, GCP, Gulp.js, Sass, ReactJS, jQuery, Bitbucket, Docker, Slack, Git, REST APIs, AJAX, HotJar, SendGrid</p>
+								<p><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> PHP 7, MySQL, GCP, Gulp.js, Sass, ReactJS, jQuery, Bitbucket, Docker, Slack, Git, REST APIs, AJAX, HotJar, SendGrid</p>
 							</div>
 							
 							<div class="accordion block">
@@ -430,7 +430,7 @@ Template Name: Resume
 									<li>Created web socket to communicate from tablet to TV in our design center.</li>
 									<li>Weekly meetings with SEO team implementing website changes to enhance SEO. Provide any technical insights or solutions where needed.</li>
 								</ul>
-								<p><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> PHP, MySQL, MS SQL, GCP, AWS, Linux, Debian, Bitbucket, Asana, Git, CSS3, Bootstrap, Apache2, REST APIs, AngularJS, jQuery, AJAX, htaccess, Pardot, Hubspot, Sass, Wordpress</p>
+								<p><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> PHP, MySQL, MS SQL, GCP, AWS, Linux, Debian, Bitbucket, Asana, Git, CSS3, Bootstrap, Apache2, REST APIs, AngularJS, jQuery, AJAX, htaccess, Pardot, Hubspot, Sass</p>
 							</div>
 							
 							<div class="accordion d-print-none block">
