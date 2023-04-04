@@ -50,7 +50,7 @@ Template Name: Resume
 							<div id="react" class="gauge-container one"><div class="language"><span class="default">TypeScript</span><span class="lamp">MySQL</span></div></div>
 							<div id="restapis" class="gauge-container one"><div class="language"><span class="default">Redux</span><span class="lamp">GCP/AWS</span></div></div>
 							<div id="gcp" class="gauge-container one"><div class="language">RESTful APIs</div></div>
-							<div id="mysql" class="gauge-container one"><div class="language"><span class="default">Netlify</span><span class="lamp">jQuery</span></div></div>
+							<div id="mysql" class="gauge-container one"><div class="language"><span class="default">PHP</span><span class="lamp">jQuery</span></div></div>
 							<div id="bootstrapg" class="gauge-container one"><div class="language">CSS3/Sass</div></div>
 						</section>
 						<section class="skills d-print-none">
@@ -65,7 +65,7 @@ Template Name: Resume
 						<section class="experience spacing-x">
 							<h2>
 								<span class="d-none d-print-inline-block">Recent</span> Work History
-								<span class="toggle-instructions d-print-none">Toggle chevrons to expand/collapse role details</span>
+								<span class="toggle-instructions d-print-none">Toggle chevrons to expand/collapse role details</span><span class="resume-instructions d-none d-print-inline-block">View work details online</span>
 							</h2>
 							<div class="accordion block">
 								<div class="summary">
@@ -96,7 +96,7 @@ Template Name: Resume
 									<li>Created an analyzer that computes the average color of a person's skin from their photo to find their closest matching shade.</li>
 								</ul>
 								
-								<p><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> PHP 7, MySQL, GCP, Gulp.js, Sass, ReactJS, jQuery, Bitbucket, Docker, Slack, Git, REST APIs, AJAX, HotJar, SendGrid</p>
+								<p class="d-print-none"><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> PHP 7, MySQL, GCP, Gulp.js, Sass, ReactJS, jQuery, Bitbucket, Docker, Slack, Git, REST APIs, AJAX, HotJar, SendGrid</p>
 							</div>
 							
 							<div class="accordion block">
@@ -118,7 +118,7 @@ Template Name: Resume
 									<li>Worked individually and on a web development team to build complete websites for clients using a child theme built on top of the company's custom parent theme.</li>
 									<li>Connected to SalesForce APIs to manage send over new application information to the SalesForce system, WordPress hooks, front end development using Gulp.js, searching and filtering by words, categories and date range using JavaScript, creating custom post types, using ACF for custom fields</li>
 								</ul>
-								<p><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> WordPress, PHP 7, MySQL, Flywheel, Gulp.js, Sass, jQuery, JavaScript, HTML5, Bitbucket, Slack, Git, JSON, Bootstrap, REST APIs, AJAX</p>
+								<p class="d-print-none"><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> WordPress, PHP 7, MySQL, Flywheel, Gulp.js, Sass, jQuery, JavaScript, HTML5, Bitbucket, Slack, Git, JSON, Bootstrap, REST APIs, AJAX</p>
 							</div>
 							
 							<div class="accordion block">
@@ -145,10 +145,10 @@ Template Name: Resume
 									<li>Created web socket to communicate from tablet to TV in our design center.</li>
 									<li>Weekly meetings with SEO team implementing website changes to enhance SEO. Provide any technical insights or solutions where needed.</li>
 								</ul>
-								<p><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> PHP, MySQL, MS SQL, GCP, AWS, Linux, Debian, Bitbucket, Asana, Git, CSS3, Bootstrap, Apache2, REST APIs, AngularJS, jQuery, AJAX, htaccess, Pardot, Hubspot, Sass</p>
+								<p class="d-print-none"><span class="d-none d-print-inline-block">Tech:</span> <span class="d-print-none">Technical Environment:</span> PHP, MySQL, MS SQL, GCP, AWS, Linux, Debian, Bitbucket, Asana, Git, CSS3, Bootstrap, Apache2, REST APIs, AngularJS, jQuery, AJAX, htaccess, Pardot, Hubspot, Sass</p>
 							</div>
 							
-							<div class="accordion d-print-none block">
+							<div class="accordion block">
 								<div class="summary">
 									<div class="row">
 										<div class="col-md-8 col-print-8">
@@ -159,7 +159,7 @@ Template Name: Resume
 									</div>
 									<div class="row">
 										<div class="col-md-12 col-print-12">
-											<div class="organization"><a href="https://epson.ca/" target="_blank">Epson Canada</a> / <a href="https://epson.com/" target="_blank">Epson America</a></div>
+											<div class="organization"><a href="https://epson.ca/" target="_blank">Epson Canada</a> / <a href="https://epson.com/" target="_blank">Epson America</a> <span class="nowrap d-none d-print-inline-block">Electronics Company</span></div>
 										</div>
 									</div>
 								</div>
@@ -201,7 +201,7 @@ Template Name: Resume
 								</ul>
 							</div>
 							
-							<div class="accordion d-print-none block">
+							<div class="accordion block">
 								<div class="summary">
 									<div class="row">
 										<div class="col-md-8 col-print-8">
@@ -225,7 +225,7 @@ Template Name: Resume
 								<p class="d-print-none">Technical Environment: HTML, jQuery, JavaScript, CSS, WCAG compliant</p>
 							</div>
 							
-							<div class="accordion d-print-none block">
+							<div class="accordion block">
 								<div class="summary">
 									<div class="row">
 										<div class="col-md-8 col-print-8">
@@ -248,7 +248,6 @@ Template Name: Resume
 								<p class="d-print-none">Technical Environment: HTML, JavaScript, CSS, Eloqua Email Template setup</p>
 							</div>
 						</section>
-						<section class="prior-history d-none d-print-block spacing-x">View expanded role details and prior work history since 2013 online</section> 
 						<section class="education spacing-x">
 							<h2>Education</h2>
 							<div class="d-print-none summary row">
@@ -284,7 +283,7 @@ Template Name: Resume
 									<div class="float-end">Scan the QR code to view <br>my full interactive resume online</div>
 								</div>
 								<div class="col-4 col-md-5 col-print-5">
-									<div class="qr-code bg-pink spacing-r"><span class="default"><?php echo wp_get_attachment_image( 5178, 'thumbnail', false, array( "class" => "img-fluid spacing-r" ) ); ?></span><span class="lamp"><?php echo wp_get_attachment_image( 5199, 'thumbnail', false, array( "class" => "img-fluid spacing-r" ) ); ?></span></div>
+									<div class="qr-code bg-pink spacing-r"><span class="default"><a href="https://christinewilson.uk/resume/"><?php echo wp_get_attachment_image( 5178, 'thumbnail', false, array( "class" => "img-fluid spacing-r" ) ); ?></span><span class="lamp"><?php echo wp_get_attachment_image( 5199, 'thumbnail', false, array( "class" => "img-fluid spacing-r" ) ); ?></a></span></div>
 								</div>
 							</div>
 						</div>
@@ -569,7 +568,7 @@ Template Name: Resume
 									<div class="float-end">Scan the QR code to view <br>my full interactive resume online</div>
 								</div>
 								<div class="col-4 col-md-5 col-print-5">
-									<div class="qr-code bg-pink spacing-r"><?php echo wp_get_attachment_image( 5195, 'thumbnail', false, array( "class" => "img-fluid spacing-r" ) ); ?></div>
+									<div class="qr-code bg-pink spacing-r"><a href="https://christinewilson.uk/resume/"><?php echo wp_get_attachment_image( 5195, 'thumbnail', false, array( "class" => "img-fluid spacing-r" ) ); ?></a></div>
 								</div>
 							</div>
 						</div>
@@ -655,7 +654,7 @@ if (window.location.hash == "#sales") {
 					gcp.setValueAnimated(8, 1.5);
 				}
 				if(entry.target.id=="mysql" ){
-					mysql.setValueAnimated(8, 1);
+					mysql.setValueAnimated(10, 1);
 				}
 			}
 		});

@@ -12,7 +12,6 @@ header {
 .resume .subject,
 .resume .school,
 .resume .qr-code-text,
-.resume .prior-history,
 .resume .signature-fullname,
 .resume .signature-job-title,
 .resume .skills-level {
@@ -120,6 +119,13 @@ h1 .title-2 {
 	color: #b3b3b3;
 	font-size: 12px;
 	display: block;
+}
+.resume-instructions {
+	color: #b3b3b3;
+	font-size: 12px;
+	display: inline-block;
+	float:right;
+	margin-top: 15px;
 }
 .experience .block:not(:last-child){
 	margin-bottom: 28.8px;
@@ -343,7 +349,6 @@ div[class*="skill-"]:before{
 	.resume .school,
 	.resume .qr-code-text,
 	.resume .language,
-	.resume .prior-history,
 	.resume .skills-table,
 	.resume .signature-fullname,
 	.resume .signature-job-title,
@@ -430,8 +435,16 @@ div[class*="skill-"]:before{
 		margin-right: 0;
 	}
 }
+@page {
+  size: A4;
+  margin: 0;
+}
 @media print
 {
+	html, body {
+		width: 210mm;
+		height: 297mm;
+	}
     header, footer, .go-to-top{
 		display:none;
 	}
@@ -467,6 +480,7 @@ div[class*="skill-"]:before{
 		width: 100%;
 		margin: 0 !important;
 		padding: 0 !important;
+		font-weight: normal !important;
 	}
 	.qr-code-bottom {
 		position: fixed;
@@ -476,15 +490,6 @@ div[class*="skill-"]:before{
 	}
 	.resume .qr-code-text{
 		font-size: 13px;
-	}
-	.prior-history {
-		padding-top: 9px;
-		padding-bottom: 9px;
-		/*text-align: center; 
-		border:1px dashed black;*/
-		background-color: #ffdef1;
-		color: black;
-		text-align: left;
 	}
 	
 	.resume .main section:not(:last-child) {
